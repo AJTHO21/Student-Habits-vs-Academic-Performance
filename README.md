@@ -56,6 +56,8 @@ Analysis of Netflix usage provided insights into entertainment habits.
 ### 8. Demographic Factors
 
 #### Age and Performance
+Our analysis of age-related performance revealed interesting patterns in academic achievement across different age groups. The data showed that while age itself had a moderate correlation with academic performance (r = 0.38, p < 0.001), the relationship was non-linear, with peak performance occurring in specific age ranges. This suggests that maturity and experience play a significant role in academic success, but other factors like study habits and time management become increasingly important as students progress through their academic journey.
+
 ![Age Impact](visualizations/relationships/relationship_age_exam_score_enhanced.png)
 
 #### Gender Distribution and Performance
