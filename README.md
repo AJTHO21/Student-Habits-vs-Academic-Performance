@@ -1,7 +1,7 @@
 # Student Habits vs Academic Performance Analysis
 
 <div align="center">
-  <img src="visualizations/dashboard_background.png" alt="Analytics Dashboard" width="100%">
+  <img src="assets/dashboard_background.jpg" alt="Analytics Dashboard" style="width: 100%; max-width: 1200px;">
 </div>
 
 ## Project Overview
@@ -48,7 +48,7 @@ The analysis employed advanced statistical techniques including factor analysis 
 #### High Achievers (25% of students)
 Our cluster analysis identified a distinct group of high-achieving students who consistently outperformed their peers. Using K-means clustering and hierarchical clustering techniques, we found these students shared several key characteristics:
 
-![High Achievers Profile](visualizations/profile_0_radar.html)
+![High Achievers Profile](visualizations/categorical_distributions.png)
 
 - Study Habits: Maintained 6-7 hours of focused study time daily, with a strong emphasis on active learning techniques
 - Sleep Patterns: Consistent 7-8 hours of quality sleep, with minimal variation in sleep schedule
@@ -59,7 +59,7 @@ Our cluster analysis identified a distinct group of high-achieving students who 
 #### Struggling Students (15% of students)
 Our analysis identified a distinct cluster of students who consistently underperformed. Using a combination of clustering and classification techniques, we found these students shared several risk factors:
 
-![Struggling Students Profile](visualizations/profile_1_radar.html)
+![Struggling Students Profile](visualizations/numerical_distributions.png)
 
 - Study Patterns: Irregular study schedules with frequent cramming sessions
 - Sleep Quality: Chronic sleep deprivation (<6 hours) with high sleep variability
@@ -72,7 +72,7 @@ Our analysis identified a distinct cluster of students who consistently underper
 #### Time Management
 Our time series analysis revealed that successful students employed sophisticated time management strategies:
 
-![Time Management Analysis](visualizations/success_patterns.html)
+![Time Management Analysis](visualizations/numerical_vs_exam_score.png)
 
 1. Study Schedule: Implemented a balanced study schedule with regular breaks (Pomodoro technique)
 2. Sleep Consistency: Maintained consistent sleep patterns with minimal variation
@@ -90,7 +90,7 @@ Through multivariate analysis, we identified several lifestyle factors that sign
 #### Support Systems
 Our social network analysis revealed the importance of support systems:
 
-![Support Systems Analysis](visualizations/student_clusters.png)
+![Support Systems Analysis](visualizations/categorical_vs_exam_score.png)
 
 1. Family Engagement: Students with strong family support showed better academic performance
 2. Peer Study Groups: Participation in study groups was associated with 12% higher grades
@@ -111,7 +111,7 @@ Our comprehensive correlation analysis revealed several significant relationship
 ### Regression Analysis
 Our multiple regression analysis revealed a robust model (R² = 0.68) with several significant predictors:
 
-![Regression Analysis](visualizations/feature_importance.png)
+![Regression Analysis](visualizations/correlation_heatmap.png)
 
 1. Study hours (β = 0.45, p < 0.001)
 2. Sleep quality (β = 0.28, p < 0.001)
@@ -121,7 +121,7 @@ Our multiple regression analysis revealed a robust model (R² = 0.68) with sever
 ### Cluster Analysis
 Using advanced clustering techniques, we identified 5 distinct student profiles:
 
-![Cluster Analysis](visualizations/student_clusters.png)
+![Cluster Analysis](visualizations/categorical_vs_exam_score.png)
 
 1. High Achievers (25%): Optimal habits across all domains
 2. Balanced Performers (35%): Good habits with room for improvement
