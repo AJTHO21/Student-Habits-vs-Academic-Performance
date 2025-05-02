@@ -1,7 +1,7 @@
 # Student Habits vs Academic Performance Analysis
 
 <p align="center">
-  <img src="images/dashboard.png" alt="Analytics Dashboard" width="100%" style="background-color: #000; padding: 20px; border-radius: 10px; margin: 20px 0;">
+  <img src="images/image (1).jpg" alt="Analytics Dashboard" width="100%" style="background-color: #000; padding: 20px; border-radius: 10px; margin: 20px 0;">
 </p>
 
 ## Project Overview
