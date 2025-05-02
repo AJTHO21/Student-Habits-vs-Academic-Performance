@@ -92,7 +92,7 @@ Our analysis of age-related performance revealed interesting patterns in academi
 <img src="visualizations/correlation_heatmap.png" alt="Correlation Matrix" width="800"/>
 
 ### Feature Importance
-<img src="visualizations/feature_importance.png" alt="Feature Importance" width="800"/>
+<img src="visualizations/numerical_vs_exam_score.png" alt="Feature Importance Analysis" width="800"/>
 
 ### Interactive Visualizations
 For interactive exploration of the data, please check out:
