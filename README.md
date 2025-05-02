@@ -1,5 +1,9 @@
 # Student Habits vs Academic Performance Analysis
 
+<div align="center">
+  <img src="visualizations/dashboard_background.png" alt="Analytics Dashboard" width="100%">
+</div>
+
 ## Project Overview
 This project analyzes the relationship between student habits and academic performance using a comprehensive dataset of 1,000 students. The analysis includes various factors such as study habits, sleep patterns, social media usage, and other lifestyle factors that may impact academic success. Through advanced statistical analysis and machine learning techniques, we've uncovered meaningful patterns and actionable insights that can help both students and educators optimize academic performance.
 
@@ -24,14 +28,14 @@ The analysis went beyond simple duration metrics, incorporating sleep quality in
 ### 3. Social Media Usage
 Our analysis of social media impact revealed a complex, non-linear relationship with academic performance. While there was an overall weak negative correlation (r = -0.31, p < 0.001), the relationship was heavily dependent on usage patterns and timing. Through time series analysis and clustering, we identified distinct usage patterns that had varying impacts on academic performance.
 
-![Social Media Impact](visualizations/distributions/social_media_impact.png)
+![Social Media Impact](visualizations/numerical_distributions.png)
 
 The most significant finding was the existence of a "sweet spot" for social media usage. Students who limited their usage to less than 2 hours per day showed no significant negative impact on academic performance, while those exceeding 3 hours showed a marked decline. Through structural equation modeling, we found that the negative impact was primarily mediated through reduced sleep quality and study time, rather than direct cognitive effects.
 
 ### 4. Mental Health
 Our mental health analysis revealed a strong positive correlation (r = 0.52, p < 0.001) with academic performance, making it the second strongest predictor after study habits. Using a combination of self-reported measures and behavioral indicators, we developed a comprehensive mental health index that accounted for various aspects of psychological well-being.
 
-![Mental Health Impact](visualizations/effect_sizes.html)
+![Mental Health Impact](visualizations/categorical_distributions.png)
 
 The analysis employed advanced statistical techniques including factor analysis and structural equation modeling to understand the complex relationships between mental health and academic performance. We found that mental health impacts academic performance through multiple pathways:
 1. Direct cognitive effects (improved concentration and memory)
@@ -86,7 +90,7 @@ Through multivariate analysis, we identified several lifestyle factors that sign
 #### Support Systems
 Our social network analysis revealed the importance of support systems:
 
-![Support Systems Analysis](visualizations/student_clusters.html)
+![Support Systems Analysis](visualizations/student_clusters.png)
 
 1. Family Engagement: Students with strong family support showed better academic performance
 2. Peer Study Groups: Participation in study groups was associated with 12% higher grades
@@ -97,7 +101,7 @@ Our social network analysis revealed the importance of support systems:
 ### Correlation Analysis
 Our comprehensive correlation analysis revealed several significant relationships:
 
-![Correlation Analysis](visualizations/correlation_heatmap.html)
+![Correlation Analysis](visualizations/correlation_heatmap.png)
 
 - Study Hours vs Performance: r = 0.76, p < 0.001 (strong positive correlation)
 - Sleep Quality vs Performance: r = 0.42, p < 0.001 (moderate positive correlation)
@@ -107,7 +111,7 @@ Our comprehensive correlation analysis revealed several significant relationship
 ### Regression Analysis
 Our multiple regression analysis revealed a robust model (R² = 0.68) with several significant predictors:
 
-![Regression Analysis](visualizations/feature_importance.html)
+![Regression Analysis](visualizations/feature_importance.png)
 
 1. Study hours (β = 0.45, p < 0.001)
 2. Sleep quality (β = 0.28, p < 0.001)
@@ -117,7 +121,7 @@ Our multiple regression analysis revealed a robust model (R² = 0.68) with sever
 ### Cluster Analysis
 Using advanced clustering techniques, we identified 5 distinct student profiles:
 
-![Cluster Analysis](visualizations/student_clusters.html)
+![Cluster Analysis](visualizations/student_clusters.png)
 
 1. High Achievers (25%): Optimal habits across all domains
 2. Balanced Performers (35%): Good habits with room for improvement
