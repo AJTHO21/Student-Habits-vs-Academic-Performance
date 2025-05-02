@@ -1,7 +1,5 @@
 # Student Habits vs Academic Performance Analysis
 
-<img src="images/dashboard.png" alt="Analytics Dashboard" width="800"/>
-
 ## Project Overview
 This project analyzes the relationship between student habits and academic performance using a comprehensive dataset of 1,000 students. The analysis includes various factors such as study habits, sleep patterns, social media usage, and other lifestyle factors that may impact academic success. Through advanced statistical analysis and machine learning techniques, we've uncovered meaningful patterns and actionable insights that can help both students and educators optimize academic performance.
 
