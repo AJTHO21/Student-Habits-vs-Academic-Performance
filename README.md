@@ -1,7 +1,7 @@
 # Student Habits vs Academic Performance Analysis
 
 <div align="center">
-  <img src="assets/dashboard_background.jpg" alt="Analytics Dashboard" style="width: 100%; max-width: 1200px;">
+  <img src="https://raw.githubusercontent.com/AJTHO21/Student-Habits-vs-Academic-Performance/main/visualizations/dashboard_background.png" alt="Analytics Dashboard" style="width: 100%; max-width: 1200px;">
 </div>
 
 ## Project Overview
