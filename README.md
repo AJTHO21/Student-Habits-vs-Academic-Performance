@@ -1,105 +1,105 @@
 # Student Habits vs Academic Performance Analysis
 
-![Analytics Dashboard](images/dashboard.png)
+![Analytics Dashboard](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/images/dashboard.png)
 
 ## Project Overview
 This project analyzes the relationship between student habits and academic performance using a comprehensive dataset of 1,000 students. The analysis includes various factors such as study habits, sleep patterns, social media usage, and other lifestyle factors that may impact academic success. Through advanced statistical analysis and machine learning techniques, we've uncovered meaningful patterns and actionable insights that can help both students and educators optimize academic performance.
 
 ### Distribution of Exam Scores
-![Exam Score Distribution](visualizations/distributions/distribution_exam_score.png)
-![Age Distribution](visualizations/distributions/distribution_age.png)
+![Exam Score Distribution](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/distributions/distribution_exam_score.png)
+![Age Distribution](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/distributions/distribution_age.png)
 
 ## Key Findings
 
 ### 1. Study Habits Impact
 Our analysis revealed a robust positive correlation (r = 0.76, p < 0.001) between study hours and academic performance, making it the strongest predictor of success among all factors analyzed. Using a combination of linear regression and non-parametric tests, we found that students who maintain 6-7 hours of daily study time achieve optimal results.
 
-![Study Hours Impact](visualizations/relationships/relationship_study_hours_per_day_exam_score_enhanced.png)
-![Study Hours Distribution](visualizations/distributions/distribution_study_hours_per_day.png)
+![Study Hours Impact](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/relationships/relationship_study_hours_per_day_exam_score_enhanced.png)
+![Study Hours Distribution](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/distributions/distribution_study_hours_per_day.png)
 
 ### 2. Sleep Patterns
 Our comprehensive sleep analysis revealed a moderate but significant positive correlation (r = 0.42, p < 0.001) between sleep quality and academic performance.
 
-![Sleep Patterns Impact](visualizations/relationships/relationship_sleep_hours_exam_score_enhanced.png)
-![Sleep Hours Distribution](visualizations/distributions/distribution_sleep_hours.png)
+![Sleep Patterns Impact](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/relationships/relationship_sleep_hours_exam_score_enhanced.png)
+![Sleep Hours Distribution](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/distributions/distribution_sleep_hours.png)
 
 ### 3. Social Media Usage
 Our analysis of social media impact revealed a complex relationship with academic performance.
 
-![Social Media Impact](visualizations/relationships/relationship_social_media_hours_exam_score_enhanced.png)
-![Social Media Usage Distribution](visualizations/distributions/distribution_social_media_hours.png)
+![Social Media Impact](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/relationships/relationship_social_media_hours_exam_score_enhanced.png)
+![Social Media Usage Distribution](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/distributions/distribution_social_media_hours.png)
 
 ### 4. Mental Health
 Mental health emerged as a critical factor in academic success.
 
-![Mental Health Impact](visualizations/relationships/relationship_mental_health_rating_exam_score_enhanced.png)
-![Mental Health Distribution](visualizations/distributions/distribution_mental_health_rating.png)
+![Mental Health Impact](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/relationships/relationship_mental_health_rating_exam_score_enhanced.png)
+![Mental Health Distribution](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/distributions/distribution_mental_health_rating.png)
 
 ### 5. Physical Activity and Exercise
 Regular exercise showed a positive correlation with academic performance.
 
-![Exercise Impact](visualizations/relationships/relationship_exercise_frequency_exam_score_enhanced.png)
-![Exercise Distribution](visualizations/distributions/distribution_exercise_frequency.png)
+![Exercise Impact](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/relationships/relationship_exercise_frequency_exam_score_enhanced.png)
+![Exercise Distribution](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/distributions/distribution_exercise_frequency.png)
 
 ### 6. Attendance and Engagement
 Attendance proved to be a significant predictor of academic success.
 
-![Attendance Impact](visualizations/relationships/relationship_attendance_percentage_exam_score_enhanced.png)
-![Attendance Distribution](visualizations/distributions/distribution_attendance_percentage.png)
+![Attendance Impact](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/relationships/relationship_attendance_percentage_exam_score_enhanced.png)
+![Attendance Distribution](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/distributions/distribution_attendance_percentage.png)
 
 ### 7. Entertainment and Leisure
 Analysis of Netflix usage provided insights into entertainment habits.
 
-![Netflix Usage Impact](visualizations/relationships/relationship_netflix_hours_exam_score_enhanced.png)
-![Netflix Hours Distribution](visualizations/distributions/distribution_netflix_hours.png)
+![Netflix Usage Impact](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/relationships/relationship_netflix_hours_exam_score_enhanced.png)
+![Netflix Hours Distribution](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/distributions/distribution_netflix_hours.png)
 
 ### 8. Demographic Factors
 
 #### Age and Performance
 Our analysis of age-related performance revealed interesting patterns in academic achievement across different age groups. The data showed that while age itself had a moderate correlation with academic performance (r = 0.38, p < 0.001), the relationship was non-linear, with peak performance occurring in specific age ranges. This suggests that maturity and experience play a significant role in academic success, but other factors like study habits and time management become increasingly important as students progress through their academic journey.
 
-![Age Impact](visualizations/relationships/relationship_age_exam_score_enhanced.png)
+![Age Impact](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/relationships/relationship_age_exam_score_enhanced.png)
 
 #### Gender Distribution and Performance
-![Gender Impact](visualizations/relationships/relationship_gender_exam_score_enhanced.png)
-![Gender Distribution](visualizations/distributions/distribution_gender_enhanced.png)
+![Gender Impact](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/relationships/relationship_gender_exam_score_enhanced.png)
+![Gender Distribution](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/distributions/distribution_gender_enhanced.png)
 
 #### Parental Education Level
-![Parental Education Impact](visualizations/relationships/relationship_parental_education_level_exam_score_enhanced.png)
-![Parental Education Distribution](visualizations/distributions/distribution_parental_education_level_enhanced.png)
+![Parental Education Impact](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/relationships/relationship_parental_education_level_exam_score_enhanced.png)
+![Parental Education Distribution](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/distributions/distribution_parental_education_level_enhanced.png)
 
 #### Diet Quality
-![Diet Quality Impact](visualizations/relationships/relationship_diet_quality_exam_score_enhanced.png)
-![Diet Quality Distribution](visualizations/distributions/distribution_diet_quality_enhanced.png)
+![Diet Quality Impact](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/relationships/relationship_diet_quality_exam_score_enhanced.png)
+![Diet Quality Distribution](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/distributions/distribution_diet_quality_enhanced.png)
 
 ### 9. Environmental Factors
 
 #### Internet Quality
-![Internet Quality Impact](visualizations/relationships/relationship_internet_quality_exam_score_enhanced.png)
-![Internet Quality Distribution](visualizations/distributions/distribution_internet_quality_enhanced.png)
+![Internet Quality Impact](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/relationships/relationship_internet_quality_exam_score_enhanced.png)
+![Internet Quality Distribution](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/distributions/distribution_internet_quality_enhanced.png)
 
 #### Part-Time Job
-![Part-Time Job Impact](visualizations/relationships/relationship_part_time_job_exam_score_enhanced.png)
-![Part-Time Job Distribution](visualizations/distributions/distribution_part_time_job_enhanced.png)
+![Part-Time Job Impact](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/relationships/relationship_part_time_job_exam_score_enhanced.png)
+![Part-Time Job Distribution](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/distributions/distribution_part_time_job_enhanced.png)
 
 #### Extracurricular Activities
-![Extracurricular Impact](visualizations/relationships/relationship_extracurricular_participation_exam_score_enhanced.png)
-![Extracurricular Distribution](visualizations/distributions/distribution_extracurricular_participation_enhanced.png)
+![Extracurricular Impact](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/relationships/relationship_extracurricular_participation_exam_score_enhanced.png)
+![Extracurricular Distribution](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/distributions/distribution_extracurricular_participation_enhanced.png)
 
 ## Statistical Analysis
 
 ### Correlation Analysis
-![Correlation Matrix](visualizations/correlation_heatmap.png)
+![Correlation Matrix](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/correlation_heatmap.png)
 
 ### Feature Importance
-![Feature Importance](visualizations/feature_importance.png)
+![Feature Importance](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/feature_importance.png)
 
 ### Interactive Visualizations
 For interactive exploration of the data, please check out:
-- [Interactive Dashboard](visualizations/interactive_dashboard.html)
-- [Success Patterns](visualizations/success_patterns.html)
-- [Student Clusters](visualizations/student_clusters.html)
-- [Scatter Matrix](visualizations/interactive/scatter_matrix.html)
+- [Interactive Dashboard](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/interactive_dashboard.html)
+- [Success Patterns](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/success_patterns.html)
+- [Student Clusters](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/student_clusters.html)
+- [Scatter Matrix](https://github.com/AJTHO21/Student-Habits-vs-Academic-Performance/raw/main/visualizations/interactive/scatter_matrix.html)
 
 ## Recommendations
 
