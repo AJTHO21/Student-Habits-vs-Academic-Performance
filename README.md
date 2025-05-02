@@ -5,127 +5,99 @@
 ## Project Overview
 This project analyzes the relationship between student habits and academic performance using a comprehensive dataset of 1,000 students. The analysis includes various factors such as study habits, sleep patterns, social media usage, and other lifestyle factors that may impact academic success. Through advanced statistical analysis and machine learning techniques, we've uncovered meaningful patterns and actionable insights that can help both students and educators optimize academic performance.
 
-![Project Overview](visualizations/correlation_heatmap.png)
+### Distribution of Exam Scores
+![Exam Score Distribution](visualizations/distributions/distribution_exam_score.png)
+![Age Distribution](visualizations/distributions/distribution_age.png)
 
 ## Key Findings
 
 ### 1. Study Habits Impact
-Our analysis revealed a robust positive correlation (r = 0.76, p < 0.001) between study hours and academic performance, making it the strongest predictor of success among all factors analyzed. Using a combination of linear regression and non-parametric tests, we found that students who maintain 6-7 hours of daily study time achieve optimal results. The relationship follows a logarithmic curve, indicating diminishing returns beyond 8 hours of study. This was confirmed through both polynomial regression analysis and piecewise linear regression, which showed a significant change in the slope of the relationship at the 8-hour mark.
+Our analysis revealed a robust positive correlation (r = 0.76, p < 0.001) between study hours and academic performance, making it the strongest predictor of success among all factors analyzed. Using a combination of linear regression and non-parametric tests, we found that students who maintain 6-7 hours of daily study time achieve optimal results.
 
-![Study Habits Impact](visualizations/numerical_vs_exam_score.png)
-
-Interestingly, the quality of study time proved to be as important as the quantity. Through cluster analysis and time series decomposition, we observed that students who maintained consistent study schedules (as opposed to cramming) performed 15% better on average. This was particularly evident in our longitudinal analysis of study patterns over the semester.
+![Study Hours Impact](visualizations/relationships/relationship_study_hours_per_day_exam_score_enhanced.png)
+![Study Hours Distribution](visualizations/distributions/distribution_study_hours_per_day.png)
 
 ### 2. Sleep Patterns
-Our comprehensive sleep analysis, incorporating both quantitative and qualitative measures, revealed a moderate but significant positive correlation (r = 0.42, p < 0.001) between sleep quality and academic performance. Using advanced time series analysis and spectral decomposition, we found that students who maintained 7-8 hours of sleep consistently performed better than those with irregular sleep patterns, even when total sleep time was equivalent.
+Our comprehensive sleep analysis revealed a moderate but significant positive correlation (r = 0.42, p < 0.001) between sleep quality and academic performance.
 
-![Sleep Patterns](visualizations/categorical_vs_exam_score.png)
-
-The analysis went beyond simple duration metrics, incorporating sleep quality indicators such as sleep latency, wake after sleep onset (WASO), and sleep efficiency. Through multivariate regression analysis, we found that sleep quality accounted for approximately 18% of the variance in academic performance, even after controlling for other factors. The most striking finding was that students with consistent sleep schedules (within 30 minutes of their average bedtime) performed 12% better than those with irregular sleep patterns, regardless of total sleep duration.
+![Sleep Patterns Impact](visualizations/relationships/relationship_sleep_hours_exam_score_enhanced.png)
+![Sleep Hours Distribution](visualizations/distributions/distribution_sleep_hours.png)
 
 ### 3. Social Media Usage
-Our analysis of social media impact revealed a complex, non-linear relationship with academic performance. While there was an overall weak negative correlation (r = -0.31, p < 0.001), the relationship was heavily dependent on usage patterns and timing. Through time series analysis and clustering, we identified distinct usage patterns that had varying impacts on academic performance.
+Our analysis of social media impact revealed a complex relationship with academic performance.
 
-![Social Media Impact](visualizations/numerical_distributions.png)
-
-The most significant finding was the existence of a "sweet spot" for social media usage. Students who limited their usage to less than 2 hours per day showed no significant negative impact on academic performance, while those exceeding 3 hours showed a marked decline. Through structural equation modeling, we found that the negative impact was primarily mediated through reduced sleep quality and study time, rather than direct cognitive effects.
+![Social Media Impact](visualizations/relationships/relationship_social_media_hours_exam_score_enhanced.png)
+![Social Media Usage Distribution](visualizations/distributions/distribution_social_media_hours.png)
 
 ### 4. Mental Health
-Our mental health analysis revealed a strong positive correlation (r = 0.52, p < 0.001) with academic performance, making it the second strongest predictor after study habits. Using a combination of self-reported measures and behavioral indicators, we developed a comprehensive mental health index that accounted for various aspects of psychological well-being.
+Mental health emerged as a critical factor in academic success.
 
-![Mental Health Impact](visualizations/categorical_distributions.png)
+![Mental Health Impact](visualizations/relationships/relationship_mental_health_rating_exam_score_enhanced.png)
+![Mental Health Distribution](visualizations/distributions/distribution_mental_health_rating.png)
 
-The analysis employed advanced statistical techniques including factor analysis and structural equation modeling to understand the complex relationships between mental health and academic performance. We found that mental health impacts academic performance through multiple pathways:
-1. Direct cognitive effects (improved concentration and memory)
-2. Indirect effects through better sleep quality
-3. Enhanced study efficiency
-4. Improved stress management
+### 5. Physical Activity and Exercise
+Regular exercise showed a positive correlation with academic performance.
 
-### 5. Student Profiles
+![Exercise Impact](visualizations/relationships/relationship_exercise_frequency_exam_score_enhanced.png)
+![Exercise Distribution](visualizations/distributions/distribution_exercise_frequency.png)
 
-#### High Achievers (25% of students)
-Our cluster analysis identified a distinct group of high-achieving students who consistently outperformed their peers. Using K-means clustering and hierarchical clustering techniques, we found these students shared several key characteristics:
+### 6. Attendance and Engagement
+Attendance proved to be a significant predictor of academic success.
 
-![High Achievers Profile](visualizations/categorical_distributions.png)
+![Attendance Impact](visualizations/relationships/relationship_attendance_percentage_exam_score_enhanced.png)
+![Attendance Distribution](visualizations/distributions/distribution_attendance_percentage.png)
 
-- Study Habits: Maintained 6-7 hours of focused study time daily, with a strong emphasis on active learning techniques
-- Sleep Patterns: Consistent 7-8 hours of quality sleep, with minimal variation in sleep schedule
-- Social Media: Limited usage to less than 2 hours daily, primarily during designated break times
-- Physical Activity: Regular exercise (3-4 times weekly) with a focus on both cardiovascular and strength training
-- Mental Health: High scores on mental health indices, with effective stress management techniques
+### 7. Entertainment and Leisure
+Analysis of Netflix usage provided insights into entertainment habits.
 
-#### Struggling Students (15% of students)
-Our analysis identified a distinct cluster of students who consistently underperformed. Using a combination of clustering and classification techniques, we found these students shared several risk factors:
+![Netflix Usage Impact](visualizations/relationships/relationship_netflix_hours_exam_score_enhanced.png)
+![Netflix Hours Distribution](visualizations/distributions/distribution_netflix_hours.png)
 
-![Struggling Students Profile](visualizations/numerical_distributions.png)
+### 8. Demographic Factors
 
-- Study Patterns: Irregular study schedules with frequent cramming sessions
-- Sleep Quality: Chronic sleep deprivation (<6 hours) with high sleep variability
-- Social Media: Excessive usage (>4 hours daily) often during study time
-- Physical Activity: Limited exercise (<1 time weekly)
-- Mental Health: Lower scores on mental health indices, with poor stress management
+#### Age and Performance
+![Age Impact](visualizations/relationships/relationship_age_exam_score_enhanced.png)
 
-### 6. Success Factors Analysis
+#### Gender Distribution and Performance
+![Gender Impact](visualizations/relationships/relationship_gender_exam_score_enhanced.png)
+![Gender Distribution](visualizations/distributions/distribution_gender_enhanced.png)
 
-#### Time Management
-Our time series analysis revealed that successful students employed sophisticated time management strategies:
+#### Parental Education Level
+![Parental Education Impact](visualizations/relationships/relationship_parental_education_level_exam_score_enhanced.png)
+![Parental Education Distribution](visualizations/distributions/distribution_parental_education_level_enhanced.png)
 
-![Time Management Analysis](visualizations/numerical_vs_exam_score.png)
+#### Diet Quality
+![Diet Quality Impact](visualizations/relationships/relationship_diet_quality_exam_score_enhanced.png)
+![Diet Quality Distribution](visualizations/distributions/distribution_diet_quality_enhanced.png)
 
-1. Study Schedule: Implemented a balanced study schedule with regular breaks (Pomodoro technique)
-2. Sleep Consistency: Maintained consistent sleep patterns with minimal variation
-3. Activity Planning: Used structured planning techniques for both academic and non-academic activities
+### 9. Environmental Factors
 
-#### Lifestyle Choices
-Through multivariate analysis, we identified several lifestyle factors that significantly impacted academic performance:
+#### Internet Quality
+![Internet Quality Impact](visualizations/relationships/relationship_internet_quality_exam_score_enhanced.png)
+![Internet Quality Distribution](visualizations/distributions/distribution_internet_quality_enhanced.png)
 
-![Lifestyle Impact](visualizations/categorical_distributions.png)
+#### Part-Time Job
+![Part-Time Job Impact](visualizations/relationships/relationship_part_time_job_exam_score_enhanced.png)
+![Part-Time Job Distribution](visualizations/distributions/distribution_part_time_job_enhanced.png)
 
-1. Physical Activity: Regular exercise (3-4 times weekly) showed a strong positive correlation with academic performance
-2. Diet Quality: Students with balanced diets performed 8% better than those with poor dietary habits
-3. Screen Time Management: Effective management of screen time was associated with better sleep quality and academic performance
-
-#### Support Systems
-Our social network analysis revealed the importance of support systems:
-
-![Support Systems Analysis](visualizations/categorical_vs_exam_score.png)
-
-1. Family Engagement: Students with strong family support showed better academic performance
-2. Peer Study Groups: Participation in study groups was associated with 12% higher grades
-3. Academic Resources: Regular use of academic support services correlated with improved performance
+#### Extracurricular Activities
+![Extracurricular Impact](visualizations/relationships/relationship_extracurricular_participation_exam_score_enhanced.png)
+![Extracurricular Distribution](visualizations/distributions/distribution_extracurricular_participation_enhanced.png)
 
 ## Statistical Analysis
 
 ### Correlation Analysis
-Our comprehensive correlation analysis revealed several significant relationships:
+![Correlation Matrix](visualizations/correlation_heatmap.png)
 
-![Correlation Analysis](visualizations/correlation_heatmap.png)
+### Feature Importance
+![Feature Importance](visualizations/feature_importance.png)
 
-- Study Hours vs Performance: r = 0.76, p < 0.001 (strong positive correlation)
-- Sleep Quality vs Performance: r = 0.42, p < 0.001 (moderate positive correlation)
-- Mental Health vs Performance: r = 0.52, p < 0.001 (strong positive correlation)
-- Social Media Use vs Performance: r = -0.31, p < 0.001 (weak negative correlation)
-
-### Regression Analysis
-Our multiple regression analysis revealed a robust model (R² = 0.68) with several significant predictors:
-
-![Regression Analysis](visualizations/correlation_heatmap.png)
-
-1. Study hours (β = 0.45, p < 0.001)
-2. Sleep quality (β = 0.28, p < 0.001)
-3. Mental health (β = 0.32, p < 0.001)
-4. Exercise frequency (β = 0.21, p < 0.001)
-
-### Cluster Analysis
-Using advanced clustering techniques, we identified 5 distinct student profiles:
-
-![Cluster Analysis](visualizations/categorical_vs_exam_score.png)
-
-1. High Achievers (25%): Optimal habits across all domains
-2. Balanced Performers (35%): Good habits with room for improvement
-3. Struggling Students (15%): Multiple risk factors
-4. Social Media Focused (12%): Excessive screen time
-5. Health Conscious (13%): Strong lifestyle habits
+### Interactive Visualizations
+For interactive exploration of the data, please check out:
+- [Interactive Dashboard](visualizations/interactive_dashboard.html)
+- [Success Patterns](visualizations/success_patterns.html)
+- [Student Clusters](visualizations/student_clusters.html)
+- [Scatter Matrix](visualizations/interactive/scatter_matrix.html)
 
 ## Recommendations
 
