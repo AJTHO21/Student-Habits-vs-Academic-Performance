@@ -97,11 +97,14 @@ Our analysis revealed varying levels of impact across different factors on acade
 <img src="visualizations/feature_importance.png" alt="Feature Importance Analysis" width="800"/>
 
 ### Interactive Visualizations
-For interactive exploration of the data, please check out:
-- [Interactive Dashboard](visualizations/interactive_dashboard.html)
-- [Success Patterns](visualizations/success_patterns.html)
-- [Student Clusters](visualizations/student_clusters.html)
-- [Scatter Matrix](visualizations/interactive/scatter_matrix.html)
+For an interactive exploration of the data relationships and patterns, please visit our [Interactive Visualizations Page](https://AJTHO21.github.io/Student-Habits-vs-Academic-Performance/). This page includes:
+
+- Interactive Dashboard: Comprehensive visualization of key metrics and relationships
+- Success Patterns: Dynamic visualization of identified success patterns
+- Student Clusters: Interactive clustering visualization
+- Scatter Matrix: Interactive correlation analysis between variables
+
+These visualizations are best viewed in a modern web browser and provide rich interactive features for exploring the relationships between student habits and academic performance.
 
 ## Recommendations
 
