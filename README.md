@@ -92,7 +92,9 @@ Our analysis of age-related performance revealed interesting patterns in academi
 <img src="visualizations/correlation_heatmap.png" alt="Correlation Matrix" width="800"/>
 
 ### Feature Importance
-<img src="visualizations/numerical_vs_exam_score.png" alt="Feature Importance Analysis" width="800"/>
+Our analysis revealed varying levels of impact across different factors on academic performance. Study hours emerged as the strongest predictor (r = 0.76), followed by attendance (r = 0.65) and mental health (r = 0.55). Interestingly, social media usage showed a negative correlation, while factors like sleep quality and extracurricular activities demonstrated moderate positive relationships. This analysis helps identify key areas for targeted interventions to improve academic outcomes.
+
+<img src="visualizations/feature_importance.png" alt="Feature Importance Analysis" width="800"/>
 
 ### Interactive Visualizations
 For interactive exploration of the data, please check out:
